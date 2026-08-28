@@ -4,7 +4,6 @@ It should produce 2 files, program.txt for binary mapping and program.s for obje
 Notes on the Project:
 
 1. Memory paddings in between ascii strings must be done manually and are 8 bytes wide, it is there to prevent sequential memory buffer overruns.
-
           Before                                           After
     prompt1:   .ascii "Enter first digit: "       prompt1:   .ascii "Enter first digit: "
     prompt_op: .ascii "Enter operator: "  ---->   .space 8
